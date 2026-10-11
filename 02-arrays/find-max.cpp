@@ -8,8 +8,8 @@ int main() {
 	
 	for (i=0; i < 5; i++) {
 		if (arr[i] > max) {
-			arr[i] = max; 
+			max = arr[i]; 
 		}
-	]
+	}
 return 0;
 }
