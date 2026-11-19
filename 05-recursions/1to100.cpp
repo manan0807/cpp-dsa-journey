@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+void print(int n)
+{
+    if(n == 101)       // Base Case
+        return;
+
+    printf("%d ", n);
+    print(n + 1);    // Recursive Call
+}
+
+int main()
+{
+    print(1);
+    return 0;
+}
